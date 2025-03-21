@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/hello-world.git'
+                git 'https://github.com/ilhamabi/latihan-devops.git'
             }
         }
         stage('Build') {
